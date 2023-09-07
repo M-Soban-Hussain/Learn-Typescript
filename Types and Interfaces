@@ -1,0 +1,43 @@
+// In typescript "type" and "interfaces" are used to define custom data types for objects or functions.
+// The method for using "type" is as follows :
+  type Student = {
+      name: string,
+      age?: number
+  }
+
+// The use of "type" with objects is as follows :
+let Soban: Student ={
+      name: "M. Soban Hussain",
+      age: 18
+}
+
+// The method for using "interface" is as follows :
+interface AddFunction{
+    (a: number,b: number):number
+}
+
+// The use of "interface" with function is as follows :
+let a,b;
+let add: AddFunction =(a,b)=>{
+return a + b;
+};
+console.log(add(3, 9)); // Outputs 7
+
+//Now we will see how to extend "type" or "interface".
+type Person {
+    name: string;
+    age: number;
+}
+
+type Employee = Person & {
+    role: string;
+};
+
+const employee: Employee = {
+    name: "John",
+    age: 30,
+    role: "Developer"
+};
+// In the above example we have extended a "type".
+// We can also extend "interface".
+// We can also extend or merge "typ" and "interface".
