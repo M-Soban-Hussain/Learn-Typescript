@@ -1,0 +1,18 @@
+//Now we will see how to extend or merge "type" or "interface".
+type Person {
+    name: string;
+    age: number;
+}
+
+type Employee = Person & {
+    role: string;
+};
+
+const employee: Employee = {
+    name: "John",
+    age: 30,
+    role: "Developer"
+};
+// In the above example we have extended an existing "type".
+// We can also extend "interface".
+// We can also extend or merge "typ" and "interface".
