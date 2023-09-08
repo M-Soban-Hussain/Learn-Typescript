@@ -1,0 +1,15 @@
+//To install it's library "npm install chalk"
+// Use of chalk is as follows:
+
+import chalk from 'chalk';
+
+// Use Chalk to colorize text
+console.log(chalk.blue('This is blue text.'));
+console.log(chalk.green('This is green text.'));
+console.log(chalk.red('This is red text.'));
+
+// You can chain styles together
+console.log(chalk.bold.underline.blue('Bold, Underlined, and Blue text.'));
+
+// Background colors
+console.log(chalk.bgYellow.black('Yellow background with black text.'));
