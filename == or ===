@@ -1,0 +1,21 @@
+// In typescript we use two types of Equalities
+// "==" This is called Loose Equality.
+// "===" This is called Strict Equality.
+
+// Use of Loose Equality.
+// It only checks the value even if it is of different type.
+
+5 === "5" // false, because the types are different (number vs. string)
+true === 1  // false, because the types are different (boolean vs. number)
+null === undefined // false, because they have different types
+
+// Use of Strict Equality.
+// It checks the value and even the type.
+
+0 == false // true, because JavaScript converts both to `0`
+0 === false // false, because they have different types
+"" == false // true, because JavaScript converts the empty string to `0`
+"" === false // false, because they have different types
+
+// However, if your running the code in vscode, both react the same.
+// But, if your running the code in some browser, they'll react differently.
