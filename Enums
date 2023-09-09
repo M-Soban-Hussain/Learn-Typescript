@@ -1,4 +1,6 @@
 // ==================Use of ENUM=====================
+// Enum is just like Array but instead of calling the elements via indexes, we use their names.
+
 // Declaration:
 // You declare an enum using the enum keyword, followed by the name of the enum and a list of named values enclosed in curly braces.
 
