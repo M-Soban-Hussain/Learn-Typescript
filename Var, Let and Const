@@ -1,0 +1,13 @@
+// ==========Uses of let, const and var==============
+
+// "Var" is not blocked-scoped, this means if they are used out side of any block, they may become globally scoped.
+// "Let" and "Const" are block-scoped, meaning there use is restricted to the function in which they are declared.
+// "Var" and "Let" value can change. It is not permanent. While "Const" value is permanent.
+// var myname = 12345;
+// console.log(myname);
+// const address = "ISLAMABAD";
+// console.log(address);
+// let age = "18";
+// console.log(age);
+
+//My recommendation is to use "Let" as it is not global-scoped and its value can be changed.
