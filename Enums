@@ -1,0 +1,30 @@
+// ==================Use of ENUM=====================
+// Declaration:
+// You declare an enum using the enum keyword, followed by the name of the enum and a list of named values enclosed in curly braces.
+
+enum Direction {
+  North,
+  South,
+  East,
+  West,
+}
+
+// Assigned Values:
+
+// By default, enums are assigned numeric values starting from 0 for the first member and incrementing by 1 for each subsequent member.
+// In the example above, Direction.North would have a value of 0, Direction.South would be 1, and so on.
+
+// Custom Values:
+// You can explicitly assign custom values to enum members if needed.
+// This is useful when you want to control the values associated with each enum member.
+// You can also set values like:
+
+enum Color {
+  Red = 100,
+  Green = 200,
+  Blue     // Next would automatically assigned 300, 400 and so on.
+}
+
+// Accessing Enum Members:
+// You can access enum members using the dot notation. For example, Direction.North or Color.Red.
+// You can also access enum members like Color[200].
