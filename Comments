@@ -1,0 +1,8 @@
+//  Comments:
+
+//  Single line TypeScript comments start with two forward slashes (//).
+//   All text after the two forward slashes until the end of a line makes up a comment
+//   Even when there are forward slashes in the commented text.
+//   Multi-line Comments
+//   Multi-line comments start with /* and end with */.
+//   Any text between /* and */ will be ignored by JavaScript.
