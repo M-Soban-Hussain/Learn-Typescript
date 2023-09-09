@@ -1,0 +1,21 @@
+//================Types of Data-Types================
+
+●   String:
+ A string is used to store a text value.
+Example: let firstName = "Ali";
+●   Number:
+ A number is used to store a numeric value.
+Example: let score = 25;
+●   Boolean:
+ A boolean is used to store a value that is either true or false.
+Example: let isMarried = false;
+●   Undeﬁned:
+ An undeﬁned type is either when it has not been deﬁned or it has not been assigned a value. Example: let unassigned;
+●   Null:
+ Null is a special value for saying that a variable is empty or has an unknown value. Example: let empty = null;
+●   Any:
+Any means any data-type. It is recognized by the compiler.
+
+// The main diffrence b/w "any" and "unknown" is:
+// "any" is detected by the compiler and is assigned by the compiler automatically.
+// "Unknown" remain unknown, the compiler does not know what it is.
