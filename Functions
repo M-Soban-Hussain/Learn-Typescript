@@ -1,0 +1,32 @@
+// Function Declaration:
+// In TypeScript, you can declare a function using the function keyword followed by the function name and its parameters. For example:
+
+function greet(name: string): string {
+  return `Hello, ${name}!`;
+}
+
+// Function Parameters and Types:
+// Functions can have parameters, which are values passed into the function. You can specify the data types of parameters to ensure type safety.
+
+function add(a: number, b: number): number {
+  return a + b;
+}
+
+// Function Return Types:
+// You can specify the return type of a function using a colon (:) followed by the type. If a function doesn't return anything, you can use void.
+
+function logMessage(message: string): void {
+  console.log(message);
+}
+
+// Arrow Functions:
+// TypeScript supports arrow functions, which provide a more concise way to declare functions, especially for short, one-line functions.
+ 
+const multiply = (a: number, b: number): number => a * b;
+
+// Optional and Default Parameters:
+//You can make function parameters optional by adding a ? after their name or provide default values.
+
+function greet(name: string, greeting: string = "Hello"): string {
+  return `${greeting}, ${name}!`;
+}
