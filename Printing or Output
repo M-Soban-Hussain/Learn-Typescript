@@ -1,0 +1,3 @@
+// For printing out something on the screen, we use console.log.
+let Soban = "Very Intelligent";
+console.log("Soban is "+Soban)
