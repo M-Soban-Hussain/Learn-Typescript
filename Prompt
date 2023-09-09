@@ -1,0 +1,7 @@
+// ==================Taking Value From User================
+
+let promptSync = require('prompt-sync')();
+let yourname = promptSync("Enter your name");
+console.log("Your name is", yourname);
+
+// This is used to take the value from user and save it in any variable.
