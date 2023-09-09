@@ -1,0 +1,3 @@
+// "Math.random()" is an object used to generate random values greater than 0 but less than 1.
+      let anyNumber = Math.random();
+      console.log(anyNumber);
