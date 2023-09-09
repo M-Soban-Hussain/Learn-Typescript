@@ -1,0 +1,16 @@
+// Strongly Typing
+// This Means Explicitly Defining the Data-Type for each Variable.
+
+let a : string = "Pakistan";
+a = "USA"; //true
+let b : number = 9;
+let c : boolean = true;
+
+// Type Inference
+// This Means that the Compiler will Automatically Assign Data-Type to the Variables.
+
+let e = "USA";
+let f = 10.9;
+f = 22;
+let g = false;
+g = true;
