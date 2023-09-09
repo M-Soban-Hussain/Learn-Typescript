@@ -1,0 +1,6 @@
+// =================Analyzing Data-Types==============
+
+// let testVariable = 1; 
+// console.log(typeof testVariable);
+
+// The "typeof" object lets you know what is the datatype of the variable or constant.
