@@ -1,0 +1,46 @@
+// Declaration:
+// You can declare an array using square brackets [] (e.g., number[]).
+
+let numbers: number[] = [1, 2, 3];
+let names: string[] = ["Alice", "Bob", "Charlie"];
+
+// Accessing Elements:
+// You can access elements by their index (position) in the array. The index starts from 0.
+
+let fruits: string[] = ["apple", "banana"];
+let firstFruit = fruits[0]; // "apple"
+
+// Array Length:
+// You can find the length of an array using the length property.
+
+let count = fruits.length; 
+console.log(count); // 3
+
+// Modifying Elements:
+// You can modify array elements by their index.
+
+fruits[1] = "grape"; // Modifying the second element
+
+// Adding and Removing Elements:
+
+let numbers: number[] = [1, 2, 3, 4];
+
+// Use shift() to remove the first element
+let firstNumber = numbers.shift(); // Removes and returns 1
+
+// Use unshift() to add elements to the beginning
+numbers.unshift(0, -1); // Adds 0 and -1 to the beginning
+
+// Use pop() to remove the last element
+let lastNumber = numbers.pop(); // Removes and returns 4
+
+// Use push() to add elements to the end
+numbers.push(5, 6); // Adds 5 and 6 to the end
+
+console.log(numbers); // [-1, 0, 2, 3, 5, 6]
+
+// Sorting Array:
+// Arrays have built-in methods for various operations like sorting and more.
+
+let numbers = [3, 1, 2];
+numbers.sort(); // Sorts the array: [1, 2, 3]
