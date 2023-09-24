@@ -19,7 +19,7 @@ function logMessage(message: string): void {
   console.log(message);
 }
 
-// Arrow Functions / Lambda Functions / Anontmous Functions:
+// Arrow Functions / Lambda Functions / Anonymous Functions:
 // TypeScript supports arrow functions, which provide a more concise way to declare functions, especially for short, one-line functions.
  
 const multiply = (a: number, b: number): number => a * b;
