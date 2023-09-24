@@ -23,10 +23,3 @@ function logMessage(message: string): void {
 // TypeScript supports arrow functions, which provide a more concise way to declare functions, especially for short, one-line functions.
  
 const multiply = (a: number, b: number): number => a * b;
-
-// Optional and Default Parameters:
-//You can make function parameters optional by adding a ? after their name or provide default values.
-
-function greet(name: string, greeting: string = "Hello"): string {
-  return `${greeting}, ${name}!`;
-}
