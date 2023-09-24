@@ -1,0 +1,43 @@
+// Rest Parameters:
+
+Rest parameters allow you to pass an indefinite number of arguments to a function.
+They are represented by three dots (...) followed by a parameter name.
+
+Example:
+function printColors(mainColor: string, ...otherColors: string[]): void {
+  console.log(`Main Color: ${mainColor}`);
+  console.log(`Other Colors: ${otherColors.join(', ')}`);
+}
+
+printColors('Blue', 'Red', 'Green', 'Yellow');
+// Main Color: Blue
+// Other Colors: Red, Green, Yellow
+
+// Optional Parameters:
+
+In TypeScript, you can make function parameters optional by adding a ? after the parameter name.
+Optional parameters can be omitted when calling the function.
+
+Example:
+function greet(name?: string): string {
+  if (name) {
+    return `Hello, ${name}!`;
+  } else {
+    return 'Hello, Guest!';
+  }
+}
+console.log(greet());       // Output: Hello, Guest!
+console.log(greet('Alice')); // Output: Hello, Alice!
+
+Default Parameters:
+
+Default parameters allow you to provide a default value for a function parameter if it's not provided when the function is called.
+You assign a default value using the = sign.
+
+Example:
+function sayHello(name: string = 'Guest'): string {
+  return `Hello, ${name}!`;
+}
+
+console.log(sayHello());       // Output: Hello, Guest!
+console.log(sayHello('Alice')); // Output: Hello, Alice!
